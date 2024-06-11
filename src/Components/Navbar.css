@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+.active{
+    border-radius: 0.5rem;
+    background-color: #F5CABF;
+}
+.NavbarItems{
+    width: 95%;
+    height: 96px;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    margin-top: 15px;
+    border-radius: 15px;
+    top: 0;
+    display: flex;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+.NavbarItems .nav-menu{
+    display: flex;
+    left: -100%;
+    transition: all 0.3s;
+}
+.NavbarItems .nav-menu li a{
+    display: block;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0.5rem;
+    margin: 0 0.5rem;
+}
+.NavbarItems .nav-menu li a:hover{
+    border-radius: 0.5rem;
+    background-color: #F5CABF;
+}
+.NavbarItems .navbar-logo{
+    margin-left: 15px;
+}
+.NavbarItems .menu{
+    font-size: 31px;
+    display: none;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.menu-icon {
+    display: none;
+    margin-right: 25px;
+    cursor: pointer;
+}
+.menu-icon svg{
+
+    font-size: 2rem;
+}
+@media (max-width:1000px){
+    .menu-icon{
+        display: block;
+    }
+    .NavbarItems .menu{
+        display: block;
+    }
+    .NavbarItems .nav-menu{
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        background: white;
+        top: 80px;
+        left: 0;
+        background: #333;
+        text-align: center;
+    }
+    .NavbarItems .nav-menu li{
+        margin: 40px 0;
+        opacity: 100%;
+    }
+    .nav-menu.active {
+        display: flex;
+        background: rgba(0, 0, 0, 0); /* Slightly transparent background */
+        backdrop-filter: blur(10px); /* Apply blur effect */
+  
+      }
+}
+@media (max-width: 480px){
+    .menu-icon{
+        display: block;
+    }
+    .NavbarItems .menu{
+        display: block;
+    }
+    .NavbarItems .nav-menu{
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        background: white;
+        top: 80px;
+        left: 0;
+        background: #333;
+        text-align: center;
+    }
+    .NavbarItems .nav-menu li{
+        margin: 40px 0;
+        opacity: 100%;
+    }
+    .nav-menu.active {
+        display: flex;
+        background: rgba(0, 0, 0, 0); /* Slightly transparent background */
+        backdrop-filter: blur(10px); /* Apply blur effect */
+  
+      }
+}
