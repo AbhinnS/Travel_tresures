@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Travel_tresures/static/css/main.2ed7383c.css",
+    "main.js": "/Travel_tresures/static/js/main.95ec5c1f.js",
+    "static/media/video.mp4": "/Travel_tresures/static/media/video.87d3db233e2246b52deb.mp4",
+    "static/media/man.jpg": "/Travel_tresures/static/media/man.d490d1b2f57d4af3e8bf.jpg",
+    "static/media/Jaipur.jpg": "/Travel_tresures/static/media/Jaipur.1c39d36db057e3068cdd.jpg",
+    "static/media/National_Park.jpg": "/Travel_tresures/static/media/National_Park.26acc55223661821a121.jpg",
+    "static/media/kerela.png": "/Travel_tresures/static/media/kerela.bdac97388434bdd1f608.png",
+    "static/media/topographic.jpg": "/Travel_tresures/static/media/topographic.17d5893febadd466eb3e.jpg",
+    "static/media/About_Us_image.jpg": "/Travel_tresures/static/media/About_Us_image.c75a5397d48e79764346.jpg",
+    "static/media/book.png": "/Travel_tresures/static/media/book.e0b2135ce421284c7f76.png",
+    "static/media/bg.jpg": "/Travel_tresures/static/media/bg.c0bc0b40a7783134d639.jpg",
+    "static/media/Hill_Station.png": "/Travel_tresures/static/media/Hill_Station.c2dfee91ea4c7e8f9a8a.png",
+    "static/media/Beaches.JPG": "/Travel_tresures/static/media/Beaches.fcb68c83d8d41a622437.JPG",
+    "static/media/Maharashtra.png": "/Travel_tresures/static/media/Maharashtra.8f4ee2d23c250ce99779.png",
+    "static/media/About_Us.jpg": "/Travel_tresures/static/media/About_Us.cdcf548f4b58649092e8.jpg",
+    "static/media/logo.png": "/Travel_tresures/static/media/logo.e71567255bb2dc8079c4.png",
+    "index.html": "/Travel_tresures/index.html",
+    "main.2ed7383c.css.map": "/Travel_tresures/static/css/main.2ed7383c.css.map",
+    "main.95ec5c1f.js.map": "/Travel_tresures/static/js/main.95ec5c1f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ed7383c.css",
+    "static/js/main.95ec5c1f.js"
+  ]
+}
